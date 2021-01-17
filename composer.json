@@ -12,12 +12,12 @@
         "league/oauth1-client": "^1.7",
         "gentor/oauth1-etsy": "^1.0.3"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "oauth1-etsy": {
             "type": "vcs",
             "url": "https://github.com/MicahKV/oauth1-etsy.git"
         }
-    ],
+    },
     "autoload": {
         "psr-4": {
             "Gentor\\Etsy\\": "src/"
