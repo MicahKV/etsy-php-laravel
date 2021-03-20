@@ -9,8 +9,7 @@
         }
     ],
     "require": {
-        "league/oauth1-client": "^1.7",
-        "gentor/oauth1-etsy": "^1.0.3"
+        "league/oauth1-client": "^1.7"
     },
     "autoload": {
         "psr-4": {
