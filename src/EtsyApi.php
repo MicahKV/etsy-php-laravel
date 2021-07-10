@@ -459,13 +459,13 @@ class EtsyApi
     private function prepareParameters($params)
     {
         $query_pairs = array();
-        $allowed = array("limit", "offset", "page", "sort_on", "sort_order", "include_private", "language");
+        //$allowed = array("limit", "offset", "page", "sort_on", "sort_order", "include_private", "language");
 
         if ($params) {
             foreach ($params as $key => $value) {
-                if (in_array($key, $allowed)) {
+                //if (in_array($key, $allowed)) {
                     $query_pairs[$key] = $value;
-                }
+                //}
             }
         }
 
